@@ -1,0 +1,43 @@
+/* Global Styles */
+body {
+    background-color: lightgray; 
+    color: #000; /* Texto negro para mayor contraste */
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0 20px;
+    -webkit-font-smoothing: antialiased; /* Mejora la visualización en dispositivos Apple */
+}
+.login_container{
+    background: #fff; /* Fondo del contenedor cambiado a blanco */
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1); /* Sombras más suaves */
+    width: 100%;
+    max-width: 450px;
+    box-sizing: border-box;
+    border: 1px solid #000; /* Contorno negro */
+    position: relative;
+    transform: translateZ(0);
+
+}
+.logo {
+  width: 10px;           /* Cambia el tamaño como desees */
+  height: 20px;          /* Altura fija para mantener proporción */
+
+}
+
+.img_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: violet;
+}
+.group_form{
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+}
